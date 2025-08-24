@@ -50,6 +50,11 @@ fieldset {
 
 }
 
+hr{ 
+    height:90px; 
+    background:url("https://files.catbox.moe/z8ullo.png") ;
+}
+
 label {
     margin: 20px;
     background-blend-mode: 50%;
@@ -88,5 +93,6 @@ a {
     color: #51adf8;
 
 }
+
 
 
