@@ -1,10 +1,11 @@
 body {
     height: auto;
+    width: 95%;
     max-width: 100%;
     background-image: linear-gradient(#bbdce5, #eceedf, #bbdce5);
     accent-color: #ff3460;
     text-align: center;
-    margin: 10px;
+    margin: 10 auto;
     border: 5px double;
     border-color: #1897ff;
     padding: 15px;
@@ -87,3 +88,4 @@ a {
     color: #51adf8;
 
 }
+
