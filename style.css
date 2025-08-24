@@ -1,0 +1,86 @@
+body {
+    background-image: linear-gradient(#bbdce5, #eceedf, #bbdce5);
+    accent-color: #ff3460;
+    text-align: center;
+    margin: 10px;
+    border: 5px double;
+    border-color: #1897ff;
+    padding: 15px;
+}
+
+img {
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+h1 {
+    margin: 25px;
+    font-family: "Press Start 2p";
+    color: #f1aee1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f364b7;
+}
+
+#box1 {
+    font-size: 32px;
+}
+
+p {
+    font-family: "Titan one";
+    color: #51adf8;
+}
+
+fieldset {
+    margin: 20px;
+    border: 0px;
+}
+
+.pacificof {
+    margin: 20px;
+    font-size: 32px;
+    font-family: "pacifico";
+    color: #f1aee1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f364b7;
+
+}
+
+label {
+    margin: 20px;
+    background-blend-mode: 50%;
+    background-color: #fffdfb;
+    border: 10px, solid;
+    border-radius: 30px;
+    border-color: #fffdfb;
+    color: #7ab1f3;
+    font-family: "Titan One";
+}
+
+label:hover {
+    color: #ff3460;
+}
+
+#submit {
+    margin: 15px;
+    background-color: #04AA6D;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+
+}
+
+#submit:hover {
+    background-color: #ff3460;
+    text-decoration: underline;
+}
+
+a {
+    color: #51adf8;
+}
