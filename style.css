@@ -1,4 +1,6 @@
 body {
+    height: auto;
+    max-width: 100%;
     background-image: linear-gradient(#bbdce5, #eceedf, #bbdce5);
     accent-color: #ff3460;
     text-align: center;
@@ -83,4 +85,5 @@ label:hover {
 
 a {
     color: #51adf8;
+
 }
