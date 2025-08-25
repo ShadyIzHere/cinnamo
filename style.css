@@ -1,18 +1,18 @@
 body {
     height: auto;
     width: auto;
-    max-width: 100%;
     background-image: linear-gradient(#bbdce5, #eceedf, #bbdce5);
     accent-color: #ff3460;
     text-align: center;
-    margin: 10px auto;
+    margin: 20px auto;
     border: 5px double;
     border-color: #1897ff;
+    border-width: 5px;
     padding: 15px;
 }
 
 img {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     height: auto;
     max-width: 100%;
@@ -20,8 +20,8 @@ img {
 
 h1 {
     margin: 25px;
-    font-size: 72px;
     font-family: "Press Start 2p";
+    font-size: 72px;
     color: #f1aee1;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #f364b7;
@@ -51,9 +51,30 @@ fieldset {
 
 }
 
-hr{ 
-    height:90px; 
-    background:url("https://files.catbox.moe/z8ullo.png") ;
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.pacificof,
+label,
+p,
+button {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+hr {
+    height: 90px;
+    background: url("https://files.catbox.moe/z8ullo.png");
 }
 
 label {
@@ -67,8 +88,10 @@ label {
     font-family: "Titan One";
 }
 
-label:hover {
+label:hover,
+input {
     color: #ff3460;
+    cursor: pointer;
 }
 
 #submit {
@@ -88,13 +111,9 @@ label:hover {
 #submit:hover {
     background-color: #ff3460;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 a {
     color: #51adf8;
-
 }
-
-
-
-
