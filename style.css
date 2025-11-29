@@ -65,7 +65,7 @@ fieldset {
 
 .pacificof,
 label,
-p,
+.pscroll,
 button {
     animation: appear linear;
     animation-timeline: view();
@@ -117,3 +117,4 @@ input {
 a {
     color: #51adf8;
 }
+
